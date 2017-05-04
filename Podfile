@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'RainyShinyCloudy' do
+
+	pod 'Alamofire', '~> 4.4'
+
+  # Pods for RainyShinyCloudy
+
+  target 'RainyShinyCloudyTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'RainyShinyCloudyUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
